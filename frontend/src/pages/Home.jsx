@@ -1,8 +1,8 @@
 import React, { useContext, useEffect, useState } from "react";
 import Nav from "../components/Nav";
 import Post from "../components/Post";
-import { userDataContext } from "../context/userContext";
-import { authDataContext } from "../context/AuthContext";
+import { userDataContext } from "../context/UserContext.jsx";
+import { authDataContext } from "../context/AuthContext.jsx";
 import axios from "axios";
 import {
   FaUserCircle,
