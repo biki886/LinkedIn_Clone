@@ -1,8 +1,8 @@
 import React, { useContext, useEffect, useState } from "react";
 import Nav from "../components/Nav";
 import axios from "axios";
-import { authDataContext } from "../context/AuthContext";
-import { userDataContext } from "../context/userContext";
+import { authDataContext } from "../context/AuthContext.jsx";
+import { userDataContext } from "../context/UserContext.jsx";
 import { FaUserCircle } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
