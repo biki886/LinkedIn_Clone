@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import Nav from "../components/Nav";
-import { userDataContext } from "../context/userContext";
+import { userDataContext } from "../context/UserContext.jsx";
 import { FaUserCircle, FaTrash, FaBell } from "react-icons/fa";
 import moment from "moment";
 import { useNavigate } from "react-router-dom";
