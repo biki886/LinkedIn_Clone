@@ -11,8 +11,8 @@ import {
   FaTimes,
 } from "react-icons/fa";
 import axios from "axios";
-import { userDataContext } from "../context/userContext";
-import { authDataContext } from "../context/AuthContext";
+import { userDataContext } from "../context/UserContext.jsx";
+import { authDataContext } from "../context/AuthContext.jsx";
 
 const Nav = () => {
   const { userData, setUserData, notificationCount } =
