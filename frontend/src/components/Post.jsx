@@ -2,8 +2,8 @@ import React, { useContext, useState } from "react";
 import moment from "moment";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import { userDataContext } from "../context/userContext";
-import { authDataContext } from "../context/AuthContext";
+import { userDataContext } from "../context/UserContext.jsx";
+import { authDataContext } from "../context/AuthContext.jsx";
 import ConnectionButton from "./ConnectionButton";
 import {
   FaUserCircle,
