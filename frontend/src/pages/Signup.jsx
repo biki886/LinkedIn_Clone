@@ -2,8 +2,8 @@ import React, { useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import axios from "axios";
-import { authDataContext } from "../context/AuthContext";
-import { userDataContext } from "../context/userContext";
+import { authDataContext } from "../context/AuthContext.jsx";
+import { userDataContext } from "../context/UserContext.jsx";
 
 const Signup = () => {
   const [show, setShow] = useState(false);
