@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useContext } from "react";
 import axios from "axios";
-import { authDataContext } from "../context/AuthContext";
-import { userDataContext } from "../context/userContext";
+import { authDataContext } from "../context/AuthContext.jsx";
+import { userDataContext } from "../context/UserContext.jsx";
 
 const ConnectionButton = ({ userId, isMyPost }) => {
   const { serverUrl } = useContext(authDataContext);
